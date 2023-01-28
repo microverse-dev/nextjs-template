@@ -13,7 +13,10 @@ export const styles = {
   },
 };
 
-export const breakpoints = ['0em', '1200px'];
+export const breakpoints = {
+  base: '0em',
+  lg: '1024px',
+};
 
 export const textStyles = {
   'default-dense-40': {
